@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> This the home page</h1>
+<h1> This the home page updated</h1>
 </body>
 </html>
