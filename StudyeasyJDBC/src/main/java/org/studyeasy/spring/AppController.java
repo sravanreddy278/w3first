@@ -27,6 +27,13 @@ public class AppController {
     	model.addObject("users", users);
     	return model;
     }
+    @RequestMapping("/home")
+    public ModelAndView home()
+    {
+    	ModelAndView model =new ModelAndView("home");
+    	return model;
+    
+    }
     
 
 }
