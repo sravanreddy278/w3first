@@ -11,7 +11,9 @@
 
 </head>
 <body>
+<h1>This is index</h1>
 <h4>Home Page : List of users in the project</h4>
+
 	<hr />
 	<table border="1" align="left">
 	<tr>
