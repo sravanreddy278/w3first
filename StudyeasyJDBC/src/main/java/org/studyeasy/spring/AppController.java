@@ -23,7 +23,7 @@ public class AppController {
     			new ClassPathXmlApplicationContext("/org/studyeasy/spring/DAO/Spring-AppDAOConfig.xml");
     	AppDAOImpl DAO=context.getBean("DAOBean", AppDAOImpl.class);
     	users =DAO.listUsers();
-    	System.out.println(users);
+    	System.out.println("the data from DB"+ users);
     	model.addObject("users", users);
     	return model;
     }
